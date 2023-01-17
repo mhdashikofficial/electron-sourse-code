@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Python Script Runner</h1>
+      <form>
+        <label for="domain">Domain:</label>
+        <input type="text" id="domain" name="domain">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <button id="start-button" type="button" onclick="runPythonScript()">Start</button>
+      </form>
+      <div id="loading-spinner" style="display: none">Loading...</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
