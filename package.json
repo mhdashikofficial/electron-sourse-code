@@ -1,0 +1,15 @@
+{
+  "name": "PythonScriptRunner",
+  "version": "1.0.0",
+  "description": "A simple Electron application for running a Python script",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^9.1.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
