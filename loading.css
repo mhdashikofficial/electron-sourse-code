@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  animation: rotate 4s linear infinite;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
